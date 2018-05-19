@@ -9,9 +9,9 @@ import LibraryList, { } from './components/LibraryList';
 const App = () => {
     return (
         <Provider store={createStore(reduders)}>
-            <View>
-            <Header headerText="Raushan Tech Stack" />
-            <LibraryList />
+            <View style={{ flex:1 }}>
+                <Header headerText="Raushan Tech Stack" />
+                <LibraryList />
             </View>
         </Provider>
     );
